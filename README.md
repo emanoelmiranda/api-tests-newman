@@ -19,3 +19,7 @@ Obs.: Export postman test before
 ```
 newman run "ApiPostmanTests.postman_collection.json" -r htmlextra --reporter-htmlextra-displayProgressBar 
 ```
+
+Newman reporter example:
+
+![Newman reporter](newman-results.png)
