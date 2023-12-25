@@ -15,7 +15,7 @@ npm install -g newman
 
 #### Install newman reporters
 ```
-npm install -g newman-reporter-htmlextr
+npm install -g newman-reporter-htmlextra
 ```
 
 #### Executing test by newman
