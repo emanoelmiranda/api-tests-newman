@@ -1,6 +1,6 @@
 # Api Newman tests
 
-### Reference Documentation
+### Summary
 Implementation with postman tests and newman execution for CI/CD
 
 #### Executing application
@@ -8,10 +8,20 @@ Implementation with postman tests and newman execution for CI/CD
 mvn spring-boot:run
 ```
 
+#### Install newman
+```
+npm install -g newman
+```
+
+#### Install newman reporters
+```
+npm install -g newman-reporter-htmlextr
+```
+
 #### Executing test by newman
 Obs.: Export postman test before
 ```
-newman run "postman_collection.json"
+newman run "ApiPostmanTests.postman_collection.json"
 ```
 
 #### Executing test by newman with reporters
