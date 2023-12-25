@@ -23,3 +23,7 @@ newman run "ApiPostmanTests.postman_collection.json" -r htmlextra --reporter-htm
 Newman reporter example:
 
 ![Newman reporter](newman-results.png)
+
+![Newman reporter requests](newman-results-requests.png)
+
+![Newman reporter requests](newman-results-request.png)
