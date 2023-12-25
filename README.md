@@ -1,4 +1,4 @@
-# Postman tests
+# Api Newman tests
 
 ### Reference Documentation
 Implementation with postman tests and newman execution for CI/CD
